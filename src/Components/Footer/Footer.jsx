@@ -8,10 +8,10 @@ const Footer = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-[50px]'>
     <div className='flex items-center gap-[20px]'>
-      <img src={footer_logo} alt="" />
-      <p className='text-[#383838] text-[46px] font-bold'>SHOPPER</p>
+      <img className='w-[40px] xl:w-full' src={footer_logo} alt="" />
+      <p className='text-[#383838] text-[25px]  xl:text-[46px] font-bold'>SHOPPER</p>
     </div>
-    <ul className='flex text-[20px] gap-[50px]  text-[#252525]'>
+    <ul className='flex flex-col items-center sm:flex-row text-[16px] xl:text-[20px] gap-[50px]  text-[#252525]'>
       <li className='cursor-pointer'>Company</li>
       <li className='cursor-pointer'>Products</li>
       <li className='cursor-pointer'>Office</li>
@@ -28,7 +28,7 @@ const Footer = () => {
           <img src={whatsapp_icon} alt="" />
         </div>
       </div>
-      <div className='flex w-full flex-col mb-[30px] gap-[30px] text-[#1a1a1a] text-[20px] items-center'>
+      <div className='flex w-full flex-col mb-[30px] gap-[30px] text-[#1a1a1a] xl:text-[20px] items-center'>
       <hr className='w-[80%] border-none rounded-[10px] h-[3px] bg-[#c7c7c7]'  />
         <p>copyright @ 2024 - All Rights Reserved.</p>
       </div>

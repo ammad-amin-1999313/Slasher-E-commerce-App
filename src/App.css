@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1580px) {
+
+    .shopProducts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 80px;
+        gap: 30px;
+        margin: 20px 170px;
+    }
+} */
 .shopProducts {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
     gap: 30px;
-    margin: 20px 170px;
+    /* margin: 20px 170px; */
 }
