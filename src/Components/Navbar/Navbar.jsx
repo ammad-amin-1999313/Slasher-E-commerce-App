@@ -94,7 +94,7 @@ const Navbar = () => {
           </div>
           {/* ----------- */}
           <div className="pt-6 ">
-            <ul className="  sm:absolute sm:bg-white  flex flex-col md:gap-[25px] md:text-[14px]  lg:text-[18px] gap-[30px] items-center text-black text-lg font-medium">
+            <ul className="  sm:absolute sm:bg-white  flex flex-col md:gap-[25px]   md:text-[18px] gap-[30px] items-center text-black text-lg font-medium">
               <li
                 onClick={() => setMenu("shop")}
                 className="flex flex-col items-center justify-center gap-[3px] cursor-pointer"

@@ -8,11 +8,11 @@ const ShopCategory = (props) => {
   return (
     <div>
       <div>
-        <img className='block my-[30px] mx-auto w-[80%]' src={props.banner} alt="" />
+        <img className='block my-[30px] mx-auto w-[90%] xl:w-[80%]' src={props.banner} alt="" />
       </div>
-      <div className='flex flex-col xl:flex-row mx-[20px] xl:mx-[170px] justify-between items-center'>
-        <p className='font-semibold'>
-          <span>Showing 1-12</span> out of 36 products
+      <div className='flex  xl:flex-row mx-[10px] md:mx-[60px] xl:mx-[170px] mb-[20px]  justify-between items-center'>
+        <p className='font-semibold text-[14px] md:text-[16px]'>
+          <span >Showing 1-12</span> out of 36 products
         </p>
         <div className='py-[5px] flex items-center gap-[10px]  px-[20px] xl:py-[10px]  xl:px-[20px] text-[13px] xl:text-[16px] rounded-[40px] border-[1px] border-[#888]'>
           Sort by <img  src={props.icon} alt="" />
