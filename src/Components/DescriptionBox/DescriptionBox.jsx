@@ -2,12 +2,12 @@ import React from "react";
 
 const DescriptionBox = () => {
   return (
-    <div className="my-[120px] mx-[130px]">
-      <div className="navigator flex">
-        <div className="nav flex items-center justify-center font-semibold w-[171px] h-[70px] border-[1px] border-[#d0d0d0]">Description</div>
-        <div className="nav flex items-center justify-center font-semibold w-[171px] h-[70px] border-[1px] border-[#d0d0d0]bg-[#fbfbfb] text-[#555]">Reviews (122)</div>
+    <div className="my-[120px] mx-[18px] md:mx-[70px] lg:mx-[130px]">
+      <div className="navigator  flex">
+        <div className="nav flex items-center justify-center font-semibold w-[140px] md:w-[171px] h-[70px] border-[1px] border-[#d0d0d0]">Description</div>
+        <div className="nav flex items-center justify-center font-semibold w-[140px] md:w-[171px] h-[70px] border-[1px] border-[#d0d0d0]bg-[#fbfbfb] text-[#555]">Reviews (122)</div>
       </div>
-      <div className="text flex flex-col gap-[25px] border-[1px] border-[#D0D0D0] p-[48px] pb-[70px]">
+      <div className="text flex flex-col gap-[25px] border-[1px] border-[#D0D0D0] p-[15px] md:p-[48px] pb-[70px]">
         <p>
           An e-commerce website is an online platform that facilitates the bying
           and selling of products or services over the internet. It serves as a
